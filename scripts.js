@@ -4,6 +4,9 @@ function addGriddies(a){
         var lilGriddy = document.createElement("div");
         lilGriddy.setAttribute("class","lilGriddy");
         lilGriddy.id = "lilGriddy" + i;
+        //lilGriddy.textContent ="o";
+        var cellWidth = 100 / Math.sqrt(a);
+        lilGriddy.style.width=cellWidth+`%`;
         griddy.appendChild(lilGriddy);
     }
     draw();
