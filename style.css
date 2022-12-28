@@ -1,0 +1,15 @@
+#grid {
+    width: 55%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lilGriddy {
+    aspect-ratio: 1 / 1;
+    width: 6%;
+    flex-wrap: wrap;    
+}
+
+.open {
+    background-color: black;
+}
